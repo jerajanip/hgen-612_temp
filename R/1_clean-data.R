@@ -15,3 +15,5 @@ faithful2 <- faithful %>%
 
 
 saveRDS(faithful2, "app/data/faithful2.rds")
+
+fs::dir_create("app/data")
